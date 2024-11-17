@@ -27,6 +27,7 @@ name = "cloudflare-docker-proxy"
 
 [env.production.vars]
 MODE = "production"
+CUSTOM_DOMAIN = "songl.org"
 TARGET_UPSTREAM = ""
 
 [env.staging]
@@ -35,4 +36,5 @@ name = "cloudflare-docker-proxy-staging"
 
 [env.staging.vars]
 MODE = "staging"
+CUSTOM_DOMAIN = "songl.org"
 TARGET_UPSTREAM = ""
